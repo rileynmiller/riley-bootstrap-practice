@@ -4,9 +4,34 @@
 // $body-bg: black;
 // $body-color: white;
 // $link-hover-color: grey;
+
 // $font-family-sans-serif: "Helvetica Neue";
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+
+  .jumbotron {
+    background: url(../img/pirate-ship.jpg);
+    background-size: cover;
+    height: 560px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p {
+    font-family: sans-serif;
+  }
+
+  .byline {
+    font-weight: bold;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
