@@ -16,11 +16,11 @@
 }
 
   .jumbotron {
-    background: url(../img/pirate-ship.jpg);
+    background: url("../img/pirate-ship.jpg") no-repeat center;
     background-size: cover;
-    height: 560px;
     font-family: 'Tangerine', cursive, times, serif;
     color: white;
+    padding-top: 20%;
   }
 
   p {
@@ -31,16 +31,6 @@
     font-weight: bold;
     padding-top: 10px;
   }
-
-  .responsive {
-    width: 100%;
-    height: auto;
-  }
-  
-  .col-lg-8 {
-      border-left: 2px solid grey;
-      padding-bottom: 30px;
-    }
 
   h2 {
       font-family: 'Tangerine', cursive, times, serif;
@@ -56,12 +46,7 @@
   }
   
 .footer {
-  position: static;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   background-color: grey;
   color: white;
   text-align: center;
-  padding-top: 15px;
 }
