@@ -19,7 +19,8 @@
     background: url(../img/pirate-ship.jpg);
     background-size: cover;
     height: 560px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Tangerine', cursive, times, serif;
+    color: white;
   }
 
   p {
@@ -28,6 +29,7 @@
 
   .byline {
     font-weight: bold;
+    padding-top: 10px;
   }
 
   .responsive {
@@ -35,3 +37,31 @@
     height: auto;
   }
   
+  .col-lg-8 {
+      border-left: 2px solid grey;
+      padding-bottom: 30px;
+    }
+
+  h2 {
+      font-family: 'Tangerine', cursive, times, serif;
+      padding-top: 10px;
+    }
+
+  .byline {
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  .publication {
+    font-family: sans-serif;
+  }
+  
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
